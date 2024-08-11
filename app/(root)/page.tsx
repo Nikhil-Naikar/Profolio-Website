@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Container>
       <Box bg="tomato" w="100%" p={3} mt={6} mt={6} borderRadius="lg" alignItems='center'>
-        <h1>Hello, I'm a Software Engineer.</h1>
+        Hello, I'm a Software Engineer.
       </Box>
       
       <Box display={{md: 'flex'}}>
