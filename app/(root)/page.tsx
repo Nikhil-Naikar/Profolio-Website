@@ -6,7 +6,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <Container>
-      <Box bg="tomato" w="100%" p={3} mt={6} mt={6} borderRadius="lg" alignItems='center'>
+      <Box bg="tomato" w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
         Hello, I'm a Software Engineer.
       </Box>
       
@@ -18,8 +18,6 @@ const Home = () => {
           <p>Software Engineer (Full-Stack Developer / Cloud Engineer / Data Engineer)</p>
         </Box>
       </Box>
-
-
     </Container>
   );
 };

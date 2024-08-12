@@ -1,23 +1,18 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+'use client'
+
 import { ChakraUiProvider } from "./providers/ChakraUiProvider";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Nikhil's Website",
-  // icons: {
-  //   icon: "/icons/fire.svg",
-  // },
-};
+import { usePathname } from "next/navigation";
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const pathname = usePathname()
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
+        <title>Nikhil's Website</title>
+      </head>
+      <body>
         <ChakraUiProvider>{children}</ChakraUiProvider>
       </body>
     </html>

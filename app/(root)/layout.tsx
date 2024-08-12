@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import NavBar from "@/components/NavBar";
 import { Box, Container } from "@chakra-ui/react";
 
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
