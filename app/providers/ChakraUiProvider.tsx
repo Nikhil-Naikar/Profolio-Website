@@ -8,5 +8,9 @@ export const ChakraUiProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  return <ChakraProvider theme={theme}>{children}</ChakraProvider>;
+  return(
+    <ChakraProvider theme={theme}>
+      {children}
+    </ChakraProvider>
+  );
 };

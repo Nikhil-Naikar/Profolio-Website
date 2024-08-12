@@ -2,6 +2,7 @@
 
 import { ChakraUiProvider } from "./providers/ChakraUiProvider";
 import { usePathname } from "next/navigation";
+import Fonts from "./fonts/fonts";
 
 export default function RootLayout({
   children,
@@ -13,6 +14,7 @@ export default function RootLayout({
         <title>Nikhil's Website</title>
       </head>
       <body>
+        <Fonts />
         <ChakraUiProvider>{children}</ChakraUiProvider>
       </body>
     </html>
