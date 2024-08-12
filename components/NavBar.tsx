@@ -5,6 +5,7 @@ import NextLink from "next/link";
 import { Box, Container, Flex, Heading, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorModeValue } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useEffect, useState } from 'react';
+import ThemeToggleButton from "./ToggleButton";
 
 interface listitems_Props{
     href:string,
@@ -87,6 +88,7 @@ const NavBar = (props:navbar_props) => {
                     </Stack>
                 )}
                 <Box flex={1} textAlign="right">
+                    <ThemeToggleButton />
                     {isMounted && (
                         <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
                             <Menu>

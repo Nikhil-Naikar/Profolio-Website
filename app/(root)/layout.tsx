@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import { usePathname } from 'next/navigation'
 import NavBar from "@/components/NavBar";
 import { Box, Container } from "@chakra-ui/react";
