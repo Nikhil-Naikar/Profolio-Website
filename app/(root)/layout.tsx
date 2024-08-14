@@ -13,8 +13,8 @@ export default function RootLayout({
   return (
     <Box pb={8}>
       <NavBar path={pathname}></NavBar>
-      <VoxelDog />
       <Container maxW="container.md" pt={14}>
+      <VoxelDog />
         {children}
       </Container>
     </Box> 
