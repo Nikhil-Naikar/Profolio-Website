@@ -1,3 +1,5 @@
+"use client"
+
 import NextLink from 'next/link'
 import { Box, Text, LinkBox, LinkOverlay, Image } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
@@ -30,7 +32,6 @@ export const GridItem = ({
         alt={title}
         className="grid-item-thumbnail"
         objectFit='cover'
-        // placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>

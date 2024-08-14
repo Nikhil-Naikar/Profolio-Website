@@ -1,5 +1,4 @@
 import { ChakraUiProvider } from "./providers/ChakraUiProvider";
-import Fonts from "./fonts/fonts";
 
 export default function RootLayout({
   children,
@@ -9,8 +8,7 @@ export default function RootLayout({
       <head>
         <title>Nikhil's Website</title>
       </head>
-      <body>
-        <Fonts />
+      <body suppressHydrationWarning={true}>
         <ChakraUiProvider>{children}</ChakraUiProvider>
       </body>
     </html>
