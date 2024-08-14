@@ -1,4 +1,3 @@
-
 import { ChakraUiProvider } from "./providers/ChakraUiProvider";
 import Fonts from "./fonts/fonts";
 

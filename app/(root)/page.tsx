@@ -1,12 +1,12 @@
 "use client";
 
-import { Box, Container, Heading } from "@chakra-ui/react";
-import Image from "next/image";
+import Section from "@/components/Section";
+import { Box, Container, Heading, Image, useColorModeValue } from "@chakra-ui/react";
 
 const Home = () => {
   return (
     <Container>
-      <Box bg="tomato" w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
+      <Box bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
         Hello, I'm a Software Engineer.
       </Box>
       
@@ -18,14 +18,28 @@ const Home = () => {
           <p>Software Engineer (Full-Stack Developer / Cloud Engineer / Data Engineer)</p>
         </Box>
         <Box
+          display="flex"
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
-          alignContent="center"
+          justifyContent="center"
           >
-            
-          </Box>
+           <Image 
+            alt="profile-image" 
+            display="inline-block" 
+            boxSize='100px' 
+            borderRadius='full' 
+            borderColor="whiteAlpha.800" 
+            borderWidth={2} 
+            borderStyle="solid" 
+            objectFit='cover'
+            src="/images/nikhil.jpg"/> 
+        </Box>
       </Box>
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">About Me</Heading>
+        <p>Paragraph</p>
+      </Section>
     </Container>
   );
 };
