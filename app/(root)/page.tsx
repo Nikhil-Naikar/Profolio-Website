@@ -10,16 +10,17 @@ import { BioSection, BioYear } from "@/components/Bio";
 const Home = () => {
   return (
     <Container>
-      <Box bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
+      <Box display="flex" justifyContent="center" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
         Hello, I'm a Software Engineer.
-      </Box>
-      
+      </Box>     
       <Box display={{md: 'flex'}}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Nikhil Naikar
           </Heading>
-          <p>Software Engineer (Full-Stack Developer / Cloud Engineer / Data Engineer)</p>
+          <Flex>
+            <p>Software Engineer (Full-Stack Developer / Cloud Engineer / Data Engineer)</p>
+          </Flex>
         </Box>
         <Box
           display="flex"
@@ -82,7 +83,6 @@ const Home = () => {
         <Heading as="h3" variant="section-title">I ♡</Heading>
         <Paragraph>Reading, Video Games, Music, Bloudering, Sushi, Coding, Travel</Paragraph>
       </Section>
-
     </Container>
   );
 };
