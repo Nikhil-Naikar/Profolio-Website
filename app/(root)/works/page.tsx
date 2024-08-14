@@ -14,7 +14,7 @@ const Works = () => {
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
-          <GridItem id="the-podcast-platfrom-project" thumbnail="/images/projects/the-podcast-platform.png" title="The Podcast Platfrom">
+          <GridItem id="the-podcast-platfrom" thumbnail="/images/projects/the-podcast-platform.png" title="The Podcast Platfrom">
             Currently building - An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
           </GridItem>
         </Section>
