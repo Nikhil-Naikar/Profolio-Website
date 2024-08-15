@@ -14,8 +14,8 @@ const Works = () => {
         </Section>
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section delay={0.2}>
-          <GridItem id="the-podcast-platfrom" thumbnail="/images/projects/the-podcast-platform.png" title="The Podcast Platfrom">
-            Currently building - An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
+          <GridItem id="The-Podcast-Platfrom" thumbnail="/images/projects/the-podcast-platform.png" title="The Podcast Platfrom">
+            An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
           </GridItem>
         </Section>
         <Section delay={0.2}>
@@ -25,7 +25,7 @@ const Works = () => {
         </Section>
         <Section delay={0.3}>
           <GridItem id="Clock-In-Clock-Out-App" thumbnail="/images/projects/CICO.png" title="Clock In Clock Out App">
-            Practiced API development by creating an application for restaurant businesses, allowing employees to easily clock in/out of their shifts and check their shift/pay history.
+            A web app for restaurant businesses, allowing employees to easily clock in/out of their shifts and check their shift/pay history.
           </GridItem>
         </Section>
         <Section delay={0.3}>
