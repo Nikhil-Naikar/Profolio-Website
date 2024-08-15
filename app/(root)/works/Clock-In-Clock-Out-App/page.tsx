@@ -27,7 +27,7 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
-            <Link href="https://github.com/Nikhil-Naikar/HNM-Clothing-Store">
+            <Link href="https://github.com/Nikhil-Naikar/Clock-In-Clock-Out">
               Go to repo <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

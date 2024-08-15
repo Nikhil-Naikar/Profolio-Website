@@ -23,7 +23,7 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Focus</Meta>
-            <span>Netural Networks</span>
+            <span>Netural Networks algorithm and building its architecture</span>
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
