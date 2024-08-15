@@ -20,7 +20,7 @@ const Works = () => {
         </Section>
         <Section delay={0.2}>
           <GridItem id="HNM-Clothing-Store" thumbnail="/images/projects/HNM.png" title="HNM Clothing Store">
-            An e-commerce website where users can browse and purchase clothes, with Python and a focus on applying good relational database design practices for MySQL.
+            An e-commerce website enabling users to browse and purchase clothing, while also allowing admin users to manage the inventory by adding, editing, or deleting items.
           </GridItem>
         </Section>
         <Section delay={0.3}>
