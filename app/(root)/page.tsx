@@ -7,6 +7,7 @@ import { Box, Button, Container, Flex, Heading, Image, useColorModeValue, Simple
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "@/components/Bio";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
+import { LiaScrollSolid } from "react-icons/lia";
 
 const Home = () => {
   return (
@@ -17,10 +18,10 @@ const Home = () => {
       <Box display={{md: 'flex'}}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Nikhil Naikar
+            Nikhil Naikar, MEng
           </Heading>
           <Flex>
-            <p>Software Engineer (Full-Stack Developer / Cloud Engineer / Data Engineer)</p>
+            <p>Full-Stack Developer | Cloud Engineer | Data Engineer</p>
           </Flex>
         </Box>
         <Box
@@ -86,7 +87,7 @@ const Home = () => {
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">I ♡</Heading>
-        <Paragraph>Reading, Video Games, Music, Bloudering, Sushi, Coding, Travel</Paragraph>
+        <Paragraph>Reading 📚, Video Games 🎮, Music 🎧, Travel ✈️, Sushi 🍣, Coding 🧑🏾‍💻</Paragraph>
       </Section>
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">Some Links</Heading>
@@ -99,6 +100,11 @@ const Home = () => {
           <ListItem>
             <Link href="https://www.linkedin.com/in/nikhil-naikar-a22313181/">
               <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>} >@nikhil-naikar</Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="/nikhil's_software_ resume.pdf">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={LiaScrollSolid} />} >my-latest-resume</Button>
             </Link>
           </ListItem>
         </List>

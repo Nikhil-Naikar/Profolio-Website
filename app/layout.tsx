@@ -9,7 +9,7 @@ export default function RootLayout({
       <head>
         <title>Nikhil's Website</title>
       </head>
-      <body suppressHydrationWarning={true}>
+      <body suppressHydrationWarning>
         <Fonts />
         <ChakraUiProvider>{children}</ChakraUiProvider>
       </body>
