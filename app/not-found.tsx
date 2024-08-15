@@ -1,4 +1,7 @@
-import NextLink from 'next/link'
+"use client"
+
+import NextLink from 'next/link';
+import VoxelDog from "../components/voxel-dog";
 import {
   Box,
   Heading,
@@ -12,6 +15,7 @@ import {
 const NotFound = () => {
   return (
     <Container>
+      <VoxelDog />
       <Heading as="h1">Not found</Heading>
       <Text>The page you&apos;re looking for was not found.</Text>
       <Divider my={6} />

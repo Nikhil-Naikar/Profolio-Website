@@ -29,7 +29,7 @@ const LinkItem = (props:listitems_Props) => {
                 as="span"
                 p={2}
                 bg={active ? 'glassTeal' : undefined}
-                color={active ? '#202023' : activeColor}
+                color={active ? 'transparent' : activeColor}
             >
                 {children}
             </Box>
