@@ -12,38 +12,40 @@ import { LiaScrollSolid } from "react-icons/lia";
 const Home = () => {
   return (
     <Container>
-      <Box display="flex" justifyContent="center" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
-        Hello, I'm a Software Engineer.
-      </Box>     
-      <Box display={{md: 'flex'}}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Nikhil Naikar, MEng
-          </Heading>
-          <Flex>
-            <p>Full-Stack Developer | Cloud Engineer | Data Engineer</p>
-          </Flex>
-        </Box>
-        <Box
-          display="flex"
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          justifyContent="center"
-          >
-           <Image 
-            alt="profile-image" 
-            display="inline-block" 
-            boxSize='100px' 
-            borderRadius='full' 
-            borderColor="whiteAlpha.800" 
-            borderWidth={2} 
-            borderStyle="solid" 
-            objectFit='cover'
-            src="/images/nikhil.jpg"/> 
-        </Box>
-      </Box>
       <Section delay={0.1}>
+        <Box display="flex" justifyContent="center" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
+          Hello, I'm a Software Engineer.
+        </Box>     
+        <Box display={{md: 'flex'}}>
+          <Box flexGrow={1}>
+            <Heading as="h2" variant="page-title">
+              Nikhil Naikar, MEng
+            </Heading>
+            <Flex>
+              <p>Full-Stack Developer | Cloud Engineer | Data Engineer</p>
+            </Flex>
+          </Box>
+          <Box
+            display="flex"
+            flexShrink={0}
+            mt={{ base: 4, md: 0 }}
+            ml={{ md: 6 }}
+            justifyContent="center"
+            >
+            <Image 
+              alt="profile-image" 
+              display="inline-block" 
+              boxSize='100px' 
+              borderRadius='full' 
+              borderColor="whiteAlpha.800" 
+              borderWidth={2} 
+              borderStyle="solid" 
+              objectFit='cover'
+              src="/images/nikhil.jpg"/> 
+          </Box>
+        </Box>
+      </Section>
+      <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
         <Paragraph>I enjoy tackling complex problems and collaborating with others to build innovative solutions. 
           My passion lies in AI, cloud computing, and software architecture. I am committed to continuous learning 
@@ -54,7 +56,7 @@ const Home = () => {
           </NextLink>
         </Flex>
       </Section>
-      <Section delay={0.2}>
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">Bio</Heading>
         <BioSection>
           <BioYear>1999</BioYear>
@@ -85,11 +87,11 @@ const Home = () => {
           Seeking entry level/ junior software engineering roles 
         </BioSection>
       </Section>
-      <Section delay={0.3}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">I ♡</Heading>
         <Paragraph>Reading 📚, Video Games 🎮, Music 🎧, Travel ✈️, Sushi 🍣, Coding 🧑🏾‍💻</Paragraph>
       </Section>
-      <Section delay={0.4}>
+      <Section delay={0.5}>
         <Heading as="h3" variant="section-title">Some Links</Heading>
         <List>
           <ListItem>

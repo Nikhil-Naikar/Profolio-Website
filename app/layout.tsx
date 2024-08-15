@@ -1,5 +1,6 @@
 import { ChakraUiProvider } from "./providers/ChakraUiProvider";
 import Fonts from "./fonts/fonts";
+import Scroll from "@/components/Scroll";
 
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
       </head>
       <body suppressHydrationWarning>
         <Fonts />
+        <Scroll />
         <ChakraUiProvider>{children}</ChakraUiProvider>
       </body>
     </html>
