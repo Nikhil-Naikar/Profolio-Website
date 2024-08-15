@@ -22,6 +22,14 @@ const components = {
         textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
+      },
+      'section-subtitle': {
+        fontSize: 15,
+        textUnderlineOffset: 6,
+        textDecorationColor: '#525252',
+        textDecorationThickness: 4,
+        marginTop: 3,
+        marginBottom: 4
       }
     }
   },

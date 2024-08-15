@@ -103,7 +103,7 @@ const Home = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/nikhil's_software_ resume.pdf">
+            <Link href="/nikhil's_software_resume.pdf">
               <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={LiaScrollSolid} />} >my-latest-resume</Button>
             </Link>
           </ListItem>

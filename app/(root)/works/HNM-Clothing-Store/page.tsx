@@ -21,7 +21,7 @@ const Project = () => {
       </Section>
       <Section delay={0.3}>
         <List ml={4} my={4}>
-        <ListItem>
+          <ListItem>
             <Meta>Focus</Meta>
             <span>Applying good relational database design practices</span>
           </ListItem>
