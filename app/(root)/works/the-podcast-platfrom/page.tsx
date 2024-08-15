@@ -21,6 +21,10 @@ const Project = () => {
       </Section>
       <Section delay={0.3}>
         <List ml={4} my={4}>
+        <ListItem>
+            <Meta>Focus</Meta>
+            <span>Integration with ChatGPT and sharpening React and Next.js skills</span>
+          </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
             <Link href="https://github.com/Nikhil-Naikar/The-Podcast-Platform">

@@ -10,7 +10,7 @@ interface childrenProp{
 
 export const Title = ({children}:childrenProp) => {
     return (<Box>
-        <Link href="/works" className="cursor-pointer text-teal-500">
+        <Link href="/works">
             Works
         </Link>
         <span>
