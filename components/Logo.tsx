@@ -20,7 +20,7 @@ padding: 10px;
 `
 
 const Logo = () => { 
-    const footPrintImg:string = `/images/home.png`
+    // const footPrintImg:string = `/cloud.ico`
 
     return (
         <Link href="/" className="cursor-pointer">

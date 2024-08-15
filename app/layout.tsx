@@ -8,6 +8,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Nikhil's Website</title>
+        <link rel="icon" href="/cloud.ico" type="image/x-icon" />
       </head>
       <body suppressHydrationWarning>
         <Fonts />

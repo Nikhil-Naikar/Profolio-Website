@@ -2,6 +2,7 @@
 
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Heading, Link, Image, Badge } from "@chakra-ui/react";
+import NextLink from "next/link";
 import React from "react";
 
 interface childrenProp{
@@ -10,7 +11,7 @@ interface childrenProp{
 
 export const Title = ({children}:childrenProp) => {
     return (<Box>
-        <Link href="/works">
+        <Link as={NextLink}href="/works">
             Works
         </Link>
         <span>

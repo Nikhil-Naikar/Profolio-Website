@@ -82,9 +82,9 @@ const NavBar = (props:navbar_props) => {
                         <LinkItem href="/works" path={path}>
                             Works
                         </LinkItem>
-                        <LinkItem href="/contact-me" path={path}>
+                        {/* <LinkItem href="/contact-me" path={path}>
                             Contact Me 
-                        </LinkItem>
+                        </LinkItem> */}
                     </Stack>
                 )}
                 <Box flex={1} textAlign="right">
@@ -100,9 +100,9 @@ const NavBar = (props:navbar_props) => {
                                     <NextLink href="/works" passHref>
                                         <MenuItem>Works</MenuItem>
                                     </NextLink>
-                                    <NextLink href="/contact-me" passHref>
+                                    {/* <NextLink href="/contact-me" passHref>
                                         <MenuItem>Contact Me</MenuItem>
-                                    </NextLink>
+                                    </NextLink> */}
                                 </MenuList>
                             </Menu>
                         </Box>
