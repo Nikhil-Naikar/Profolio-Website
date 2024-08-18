@@ -52,7 +52,7 @@ const Home = () => {
           and to ongoing professional development by staying updated with the latest tech trends and advancing my coding skills. 📈</Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Profolio</Button>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
           </NextLink>
         </Flex>
       </Section>
