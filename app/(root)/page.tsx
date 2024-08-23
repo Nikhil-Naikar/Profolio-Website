@@ -89,7 +89,7 @@ const Home = () => {
       </Section>
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">I ♡</Heading>
-        <Paragraph>Reading 📚, Video Games 🎮, Music 🎧, Travel ✈️, Sushi 🍣, Coding 🧑🏾‍💻</Paragraph>
+        <Paragraph>Reading 📚, Video Games 🎮, Music 🎧, Travel ✈️, Sushi 🍣</Paragraph>
       </Section>
       <Section delay={0.5}>
         <Heading as="h3" variant="section-title">Some Links</Heading>
