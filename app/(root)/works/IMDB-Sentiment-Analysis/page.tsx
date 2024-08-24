@@ -16,14 +16,14 @@ const Project = () => {
       </Section>
       <Section delay={0.2}>
         <P>
-          A deep-learning model using Neutral Networks algorithm to predict the correct sentiment for IMBD movie reviews with a dataset of 50000 rows.
+          A deep-learning model using Neural Networks algorithm to predict the correct sentiment for IMBD movie reviews with a dataset of 50000 rows.
         </P>
       </Section>
       <Section delay={0.3}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Focus</Meta>
-            <span>Netural Networks algorithm and building its architecture</span>
+            <span>Neural Networks algorithm and building its architecture</span>
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
@@ -49,7 +49,7 @@ const Project = () => {
         <WorkImage src="/images/dump/nn_4.png" alt="nn_4" />
         <Heading as="h3" variant="section-subtitle">Step 3: Apply Feature Extraction Techniques</Heading>
         <WorkImage src="/images/dump/nn_5.png" alt="nn_5" />
-        <Heading as="h3" variant="section-subtitle">Step 4: Neutral Networks Time!</Heading>
+        <Heading as="h3" variant="section-subtitle">Step 4: Neural Networks Time!</Heading>
         <WorkImage src="/images/dump/nn_6.png" alt="nn_6" />
         <WorkImage src="/images/dump/nn_7.png" alt="nn_7" />
         <WorkImage src="/images/dump/nn_8.png" alt="nn_8" />
