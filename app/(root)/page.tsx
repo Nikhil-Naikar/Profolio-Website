@@ -47,7 +47,8 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>I enjoy tackling complex problems and collaborating with others to build innovative solutions. 
+        <Paragraph>Software Engineering Masters graduate with experience in full-stack application development, management and
+          client relations. I enjoy tackling complex problems and collaborating with others to build innovative solutions. 
           My passion lies in AI, cloud computing, and software architecture. I am committed to continuous learning 
           and to ongoing professional development by staying updated with the latest tech trends and advancing my coding skills. 📈</Paragraph>
         <Flex align="center" justify="center" my={4}>

@@ -23,7 +23,7 @@ const Project = () => {
         <List ml={4} my={4}>
         <ListItem>
             <Meta>Focus</Meta>
-            <span>Integration with ChatGPT and sharpening React and Next.js skills</span>
+            <span>Integration with OpenAI’s generative AI models (TTS & DALL·E 3)</span>
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
