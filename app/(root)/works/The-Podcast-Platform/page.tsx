@@ -40,12 +40,22 @@ const Project = () => {
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">Views 🧐</Heading>
         <P>What a curious user who is not signed in would see:</P>
-        <WorkImage src="/images/projects/the-podcast-platform.png" alt="podcase-platform-homepage" />
-        <P>If the curious user tries to access any other page they will be prompted to log in or sign up, secure authentication is done by Clerk service. This is the Log In page:</P>
+        <WorkImage src="/images/dump/pp_0.png" alt="podcase-platform-homepage" />
+        <P>If the curious user tries to access any other page they will be prompted to sign in or sign up. This is the Sign In page:</P>
         <WorkImage src="/images/dump/login.png" alt="login-page" />
-        <P>This is the Sign Up page:</P>
+        <P>Sign Up page:</P>
         <WorkImage src="/images/dump/signup.png" alt="signup-page" />
-        <P>Stay tuned, more coming soon 🧑🏾‍💻</P>
+        <P>Homepage:</P>
+        <WorkImage src="/images/dump/pp_1.png" alt="homepage-dt" />
+        <P>Podcast details:</P>
+        <WorkImage src="/images/dump/pp_2.png" alt="podcastpage-dt" />
+        <P>Create podcast:</P>
+        <WorkImage src="/images/dump/pp_3.png" alt="createpodcastpage-dt" />
+        <P>Profile page:</P>
+        <WorkImage src="/images/dump/pp_4.png" alt="profilepage-dt" />
+        <P>Search functionality:</P>
+        <WorkImage src="/images/dump/pp_5.png" alt="searchpage-dt" />
+        <WorkImage src="/images/dump/pp_6.png" alt="searchempty-dt" />
       </Section>
     </Container>
   );
