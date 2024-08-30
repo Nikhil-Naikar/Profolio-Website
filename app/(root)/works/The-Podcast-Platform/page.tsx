@@ -21,9 +21,15 @@ const Project = () => {
       </Section>
       <Section delay={0.3}>
         <List ml={4} my={4}>
-        <ListItem>
+          <ListItem>
             <Meta>Focus</Meta>
             <span>Integration with OpenAI’s generative AI models (TTS & DALL·E 3)</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Demo </Meta>
+            <Link href="https://www.youtube.com/watch?v=XS7b3M92oP0">
+              Go to video <ExternalLinkIcon mx="2px" />
+            </Link>
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
