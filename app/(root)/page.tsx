@@ -47,10 +47,7 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>Software Engineering Masters graduate with experience in full-stack application development, management and
-          client relations. I enjoy tackling complex problems and collaborating with others to build innovative solutions. 
-          My passion lies in AI, cloud computing, and software architecture. I am committed to continuous learning 
-          and to ongoing professional development by staying updated with the latest tech trends and advancing my coding skills. 📈</Paragraph>
+        <Paragraph>Software Engineering Masters graduate with experience in full-stack application development, management and client relations. Passionate about cloud computing, and generative/predictive AI, and committed to continuous learning. Currently seeking a company where I can apply my skills, learn from experienced professionals and grow within a dynamic team. 📈</Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
