@@ -32,6 +32,7 @@ export const GridItem = ({
         alt={title}
         className="grid-item-thumbnail"
         objectFit='cover'
+        borderRadius={12}
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>

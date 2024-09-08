@@ -14,6 +14,11 @@ const Works = () => {
         </Section>
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section delay={0.2}>
+          <GridItem id="Budget-Tracker" thumbnail="/images/dump/bt_0.png" title="Budget Tracker">
+            Budget Tracker helps you stay on top of your finances by tracking spending and setting limits to avoid going broke—so you don’t end up eating instant noodles for a week (like I almost did).
+          </GridItem>
+        </Section>
+        <Section delay={0.2}>
           <GridItem id="The-Podcast-Platform" thumbnail="/images/dump/pp_0.png" title="The Podcast Platfrom">
             An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
           </GridItem>
