@@ -16,7 +16,7 @@ const Project = () => {
       </Section>
       <Section delay={0.2}>
         <P>
-        An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
+        An web app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
         </P>
       </Section>
       <Section delay={0.3}>

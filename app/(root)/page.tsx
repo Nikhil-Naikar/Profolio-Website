@@ -22,7 +22,7 @@ const Home = () => {
               Nikhil Naikar, MEng
             </Heading>
             <Flex>
-              <p>Full-Stack Developer | Cloud Engineer | Data Engineer</p>
+              <p>Full-Stack Developer with AWS and AI Expertise</p>
             </Flex>
           </Box>
           <Box
@@ -47,7 +47,7 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>Software Engineering Masters graduate with experience in full-stack application development, management and client relations. Passionate about cloud computing, and generative/predictive AI, and committed to continuous learning. Currently seeking a company where I can apply my skills, learn from experienced professionals and grow within a dynamic team. 📈</Paragraph>
+        <Paragraph>Software Engineering Masters graduate with experience in full-stack web development, management and client relations. Passionate about cloud computing, generative/predictive AI, and committed to continuous learning. Currently seeking a company where I can apply my skills to build cool things, collaborate with experienced professionals and grow within a dynamic team. 📈</Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
@@ -62,7 +62,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-           Enrolled at the University of Calgary
+          Enrolled at the University of Calgary
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
@@ -70,7 +70,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed Bachelor of Science Degree, major in Electrical Engineering
+          Completed Bachelor of Science in Electrical Engineering
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
@@ -78,11 +78,11 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Completed Master of Engineering Degree, specalized in Software Engineering
+          Completed Master of Engineering in Software Engineering
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          Seeking entry level/ junior software engineering roles 
+          Seeking software engineering roles 
         </BioSection>
       </Section>
       <Section delay={0.4}>

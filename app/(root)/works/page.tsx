@@ -20,7 +20,7 @@ const Works = () => {
         </Section>
         <Section delay={0.2}>
           <GridItem id="The-Podcast-Platform" thumbnail="/images/dump/pp_0.png" title="The Podcast Platfrom">
-            An app for hosting podcasts with AI-powered features, including text-to-multiple-voices functionality and AI-generated images, with OpenAI integration.
+          A web app for podcast lovers and aspiring hosts! With AI-powered features, you can listen to all your favorite podcasts and easily host your own.
           </GridItem>
         </Section>
         <Section delay={0.2}>

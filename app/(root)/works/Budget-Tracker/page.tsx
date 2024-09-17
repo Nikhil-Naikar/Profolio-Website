@@ -23,7 +23,7 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Focus</Meta>
-            <span>Learning and applying ASP.NET Core best practices</span>
+            <span>Learning C# and ASP.NET Core</span>
           </ListItem>
           <ListItem>
             <Meta>GitHub</Meta>
