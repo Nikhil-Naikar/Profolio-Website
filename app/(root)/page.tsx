@@ -47,9 +47,9 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>Full-Stack Developer with AWS and AI expertise holding industry experience in web development, project
-management and client relations. Currently seeking a company where I can apply my skills and collaborate with
-experienced professionals to solve business problems, and grow within a dynamic team. 🚀</Paragraph>
+        <Paragraph>Master’s Graduate in Software Engineering with expertise in AWS and AI, and industry experience in full-stack
+web development, project management and client relations. Currently seeking a company where I can apply my
+skills, collaborate with experienced professionals to solve business problems, and grow within a dynamic team. 🚀</Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
