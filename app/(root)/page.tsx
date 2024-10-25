@@ -22,7 +22,7 @@ const Home = () => {
               Nikhil Naikar, MEng
             </Heading>
             <Flex>
-              <p>Full-Stack Developer with AWS and AI Expertise</p>
+              <p>AWS Certified | Skilled in Automation & Development</p>
             </Flex>
           </Box>
           <Box
@@ -47,9 +47,9 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>Master’s Graduate in Software Engineering with expertise in AWS and AI, and industry experience in full-stack
-web development, project management and client relations. Currently seeking a company where I can apply my
-skills, collaborate with experienced professionals to solve business problems, and grow within a dynamic team. 🚀</Paragraph>
+        <Paragraph>Master’s Graduate in Software Engineering with proven skills in AWS and AI, alongside industry experience in
+web development, project management, and client relations. Currently seeking an opportunity to apply my skills,
+collaborate with experienced professionals to solve business challenges, and grow within a dynamic team. 🚀</Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
@@ -61,6 +61,10 @@ skills, collaborate with experienced professionals to solve business problems, a
         <BioSection>
           <BioYear>1999</BioYear>
           Born in Kuwait
+        </BioSection>
+        <BioSection>
+          <BioYear>2011</BioYear>
+          Moved to Canada
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
