@@ -11,7 +11,7 @@ const Project = () => {
     <Container>
       <Section delay={0.1}>
         <Title>
-          Budget Tracker [In Progress] <Badge>2024</Badge>
+          Budget Tracker 
         </Title>
       </Section>
       <Section delay={0.2}>

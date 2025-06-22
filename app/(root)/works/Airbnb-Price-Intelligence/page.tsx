@@ -11,7 +11,7 @@ const Project = () => {
     <Container>
       <Section delay={0.1}>
         <Title>
-        Airbnb Price Intelligence <Badge>2023</Badge>
+        Airbnb Price Intelligence
         </Title>
       </Section>
       <Section delay={0.2}>

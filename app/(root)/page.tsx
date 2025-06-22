@@ -79,27 +79,27 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2011</BioYear>
-          Moved to Canada
+          Moved to Calgary, AB, Canada
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Enrolled into Engineering at the University of Calgary
+          Enrolled into Schulich School of Engineering, University of Calgary
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Project Manager (Internship), Siemens Energy
+          Project Manager Intern, Siemens Energy
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Graduated from Bachelor of Science in Electrical Engineering
+          Graduated from Bachelor of Science in Electrical Engineering, specialization in Power Engineering
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Full-Stack Developer (Internship), Benevity
+          Full-Stack Developer Intern, Benevity
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Graduated from Master of Engineering in Software Engineering
+          Graduated from Master of Engineering, specialization in Software Engineering
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>

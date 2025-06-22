@@ -11,7 +11,7 @@ const Project = () => {
     <Container>
       <Section delay={0.1}>
         <Title>
-        IMDB Sentiment Analysis <Badge>2024</Badge>
+        IMDB Sentiment Analysis 
         </Title>
       </Section>
       <Section delay={0.2}>
