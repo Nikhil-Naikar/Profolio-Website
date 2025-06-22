@@ -14,15 +14,15 @@ const Home = () => {
     <Container>
       <Section delay={0.1}>
         <Box display="flex" justifyContent="center" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} w="100%" p={3} mt={6} mb={6} borderRadius="lg" alignItems='center'>
-          Hello, I'm a Software Engineer.
+        Hello 👋🏾, welcome to my website! Happy exploring - feel free to reach out.
         </Box>     
         <Box display={{md: 'flex'}}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Nikhil Naikar, MEng
+              Nikhil Naikar, MEng, EIT
             </Heading>
             <Flex>
-              <p>AWS Certified | Skilled in Automation & Development</p>
+              <p>AWS Certified | Skilled in Full-Stack Development and Machine Learning</p>
             </Flex>
           </Box>
           <Box
@@ -47,9 +47,24 @@ const Home = () => {
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">About Me</Heading>
-        <Paragraph>Master’s Graduate in Software Engineering with proven skills in AWS and AI, alongside industry experience in
-web development, project management, and client relations. Currently seeking an opportunity to apply my skills,
-collaborate with experienced professionals to solve business challenges, and grow within a dynamic team. 🚀</Paragraph>
+        <Paragraph>
+          Detail-oriented and driven engineering professional with strong communication, 
+          problem-solving, and teamwork skills. 
+
+          Skilled with Cloud Platforms (AWS, Digital 
+          Ocean), Full Stack Development (OOP, SOLID), and Machine Learning (Python, 
+          Databricks). 
+
+          Experienced in web development, project management, client relations,
+          and detailed engineering across Oil & Gas (Vista Projects), Energy Infrastructure
+          (Siemens Energy), and SaaS web applications (Benevity, Somnivet).
+        </Paragraph>
+        <br/>
+        <Paragraph>
+          Currently seeking an opportunity to apply my skills,
+          collaborate with experienced professionals to solve business challenges,
+          and grow within a dynamic team. 🚀
+        </Paragraph>
         <Flex align="center" justify="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Portfolio</Button>
@@ -68,27 +83,31 @@ collaborate with experienced professionals to solve business challenges, and gro
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Enrolled at the University of Calgary
+          Enrolled into Engineering at the University of Calgary
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Worked for Siemens Energy as Project Manager Intern
+          Project Manager (Internship), Siemens Energy
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed Bachelor of Science in Electrical Engineering
+          Graduated from Bachelor of Science in Electrical Engineering
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Worked for Benevity as Software Engineer Intern
+          Full-Stack Developer (Internship), Benevity
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Completed Master of Engineering in Software Engineering
+          Graduated from Master of Engineering in Software Engineering
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          Seeking software engineering roles 
+          Full-Stack Developer, Somnivet
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Electrical EIT, Vista Projects
         </BioSection>
       </Section>
       <Section delay={0.4}>

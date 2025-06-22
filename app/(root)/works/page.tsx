@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { GridItem } from "@/components/GridItem";
 import Section from "@/components/Section";
