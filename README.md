@@ -5,6 +5,7 @@
 - Next.js
 - Node.js
 - Chakra UI
-- Vercel
+- AWS
+- Digital Ocean
 
 
